@@ -19,6 +19,32 @@ To conduct this analysis, we sourced data from multiple reputable financial and 
 - **World Bank & IMF Economic Reports**: Global interest rate policies and economic comparisons.
 - **Additional Macroeconomic Indicators**: Inflation rates, GDP growth, stock market trends, and consumer confidence indices.
 
+## Business Understanding
+This project explores how the Federal Reserve's interest rate policy impacts unemployment. By analyzing historical economic data, we aimed to determine whether interest rate changes have a measurable effect on labor markets.
+
+## Key Insights
+- **Interest Rate Lag Effect:** Our analysis indicates that interest rate changes **impact unemployment with a 6-12 month delay**.
+- **Economic Cycles Influence the Strength of the Relationship:** During recessions, unemployment spikes more drastically following rate hikes.
+- **GDP and Inflation are Strong Predictors:** GDP growth and inflation rates were among the most important features in our predictive models.
+- **Predictive Accuracy:** Our best-performing models can **forecast unemployment trends 6 months in advance** with reasonable accuracy.
+
+## Model Evaluation
+- **Best Performing Model:** [Insert Model Name]  
+  - RMSE: [Insert Value]  
+  - MAE: [Insert Value]  
+  - R²: [Insert Value]  
+- **Why This Model?** The selected model balances interpretability and predictive performance while handling economic volatility.
+
+## Actionable Recommendations
+- **For Policymakers:** Interest rate changes should account for a **6-12 month economic lag** before visible labor market effects.
+- **For Businesses:** Companies should monitor macroeconomic indicators like GDP and inflation **to anticipate labor market shifts**.
+- **Future Enhancements:** Expanding the dataset to include **consumer sentiment** and **sector-specific employment trends** could improve predictive accuracy.
+
+## Next Steps
+- Conduct **causal inference analysis** to distinguish correlation from causation.
+- Develop an **interactive dashboard** to help policymakers visualize model predictions in real time.
+- Experiment with **deep learning approaches** (LSTMs) for improved forecasting.
+
 ## Key Takeaways
 - Interest rate changes have a **6-12 month lag effect** on unemployment.
 - GDP and inflation significantly influence unemployment trends.

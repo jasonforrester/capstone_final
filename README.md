@@ -107,7 +107,6 @@ Our approach follows the CRISP-DM framework for structured data analysis and mod
 │   ├── processed/  # Cleaned and feature-engineered datasets
 │   ├── expanded_economic_data_perfect.csv  # Final dataset used in modeling
 │── images/  # Data visualizations and SHAP analysis results
-│── presentation/  # Slides and summary reports
 ```
 
 ## Authors
